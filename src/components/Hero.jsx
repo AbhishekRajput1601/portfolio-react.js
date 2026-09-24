@@ -6,7 +6,7 @@ import frontPortrait from "../images/front-cutout.png";
 const LINES = [
   { t: "const", c: " engineer = {" },
   { indent: 1, k: "name", v: '"Abhishek Rajput"' },
-  { indent: 1, k: "stack", v: '["Java", "Spring Boot", "React"]' },
+  { indent: 1, k: "stack", v: '["Java", "Spring Boot", "React", "mern", "aws", "sql", "docker", "microservices", "postgresql", "redis"]' },
   { indent: 1, k: "rank", v: '"AIR 396 / 25,000+"' },
   { indent: 1, k: "solved", v: '"500+ LeetCode problems"' },
   { t: "}", c: ";" },
@@ -91,7 +91,7 @@ export default function Hero() {
 
   return (
     <section id="top" className="hero-section grid-texture">
-      <div className="pointer-events-none absolute -top-32 right-[-10%] w-[520px] h-[520px] rounded-full bg-amber/10 blur-[120px]" />
+      <div className="pointer-events-none absolute -top-32 right-[-10%] w-130 h-130 rounded-full bg-amber/10 blur-[120px]" />
 
       <div className="hero-layout">
         <motion.div
@@ -100,7 +100,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
-          <p className="hero-kicker font-mono text-teal">Software Engineer — Backend &amp; Full Stack</p>
+          <p className="hero-kicker font-mono text-teal">Software Engineer — Backend &amp; Full Stack Developer</p>
           <h1 className="hero-title font-display font-semibold text-balance">
             Building reliable backend systems and polished web experiences.
           </h1>

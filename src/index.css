@@ -171,9 +171,9 @@ html[data-theme="light"] .grid-texture {
 }
 
 .hero-copy { min-width: 0; }
-.hero-kicker { font-size: .75rem; line-height: 1.5; margin-bottom: 16px; }
-.hero-title { font-size: clamp(2rem, 3.4vw, 3rem); line-height: 1.08; }
-.hero-description { max-width: 460px; margin-top: 20px; font-size: 1rem; line-height: 1.65; }
+.hero-kicker { font-size: .8125rem; line-height: 1.5; margin-bottom: 16px; }
+.hero-title { font-size: clamp(2.125rem, 3.7vw, 3.25rem); line-height: 1.08; }
+.hero-description { max-width: 460px; margin-top: 20px; font-size: 1.0625rem; line-height: 1.6; }
 .hero-actions { margin-top: 24px; }
 .hero-stats { max-width: 450px; margin-top: 28px; }
 
@@ -210,9 +210,9 @@ html[data-theme="light"] .grid-texture {
 }
 
 @media (min-width: 900px) and (max-height: 700px) {
-  .hero-title { font-size: 2.35rem; }
+  .hero-title { font-size: 2.5rem; }
   .hero-kicker { margin-bottom: 12px; }
-  .hero-description { margin-top: 16px; font-size: .9375rem; line-height: 1.6; }
+  .hero-description { margin-top: 16px; font-size: 1rem; line-height: 1.6; }
   .hero-actions { margin-top: 18px; }
   .hero-stats { margin-top: 20px; }
 }
