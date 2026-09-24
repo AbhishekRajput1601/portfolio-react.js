@@ -25,7 +25,7 @@ export default function Education() {
         <div className="grid md:grid-cols-2 gap-6">
           {EDUCATION.map((item, index) => (
             <article key={item.degree} className="relative rounded-xl border border-line bg-panel p-7 sm:p-8 overflow-hidden">
-              <span className="absolute right-6 top-5 font-mono text-5xl font-semibold text-text/[0.04]" aria-hidden="true">
+              <span className="absolute right-6 top-5 font-mono text-5xl font-semibold text-text/4" aria-hidden="true">
                 0{index + 1}
               </span>
               <p className="font-mono text-xs text-teal mb-6">{item.period}</p>

@@ -139,7 +139,7 @@ export default function Hero() {
         >
           <Portrait src={frontPortrait} alt="Abhishek Rajput in a white shirt" priority>
             <span className="portrait-name">Abhishek Rajput</span>
-            <span className="portrait-location">Software engineer · Bhopal, India</span>
+            <span className="portrait-location">Software engineer · Indore, India</span>
           </Portrait>
           <div className="hero-code">
             <pre className="hero-code-content font-mono text-text/90" aria-label="Engineer profile">

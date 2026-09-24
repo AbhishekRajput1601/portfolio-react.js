@@ -4,7 +4,7 @@ import headshot from "../images/name-cutout.png";
 export default function Contact() {
   return (
     <section id="contact" className="contact-section px-4 sm:px-6 border-t border-line grid-texture relative overflow-hidden flex flex-col justify-center">
-      <div className="pointer-events-none absolute bottom-[-20%] left-[10%] w-[420px] h-[420px] rounded-full bg-teal/10 blur-[120px]" />
+      <div className="pointer-events-none absolute bottom-[-20%] left-[10%] w-105 h-105 rounded-full bg-teal/10 blur-[120px]" />
       <div className="contact-content max-w-3xl mx-auto text-center relative">
         <Portrait src={headshot} alt="Portrait of Abhishek Rajput" variant="avatar" />
         <p className="contact-kicker font-mono text-sm text-teal">Open to backend and full-stack opportunities</p>
@@ -40,7 +40,7 @@ export default function Contact() {
 
       <footer className="contact-footer border-t border-line max-w-5xl w-full mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-muted relative">
         <p>© {new Date().getFullYear()} Abhishek Rajput. Built with React, Vite &amp; Tailwind.</p>
-        <p>Based in Bhopal, India</p>
+        <p>Based in Indore, India</p>
       </footer>
     </section>
   );
